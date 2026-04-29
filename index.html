@@ -1,171 +1,194 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Calmo - Privacy Policy</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Calmo | Calm . Focus . Sleep</title>
 
   <style>
+    :root {
+      --primary: #26a69a;
+      --secondary: #a8dadc;
+      --bg-main: #e3f2fd;
+      --card-bg: #ffffff;
+      --text-main: #1f2937;
+      --text-light: #6b7280;
+    }
+
     body {
       margin: 0;
       font-family: 'Segoe UI', sans-serif;
-      background: radial-gradient(circle at top, #1a1a40, #0a0a23);
-      color: #e0e0ff;
-      line-height: 1.7;
+      background: var(--bg-main);
+      color: var(--text-main);
     }
 
     .container {
-      max-width: 900px;
+      max-width: 1000px;
       margin: auto;
-      padding: 40px 20px;
+      padding: 20px;
     }
 
     h1 {
-      text-align: center;
-      font-size: 40px;
-      margin-bottom: 10px;
-      color: #a78bfa;
+      font-size: 28px;
+      margin-bottom: 5px;
     }
 
     .subtitle {
-      text-align: center;
-      margin-bottom: 40px;
-      color: #c4b5fd;
+      color: var(--text-light);
+      margin-bottom: 20px;
     }
 
-    h2 {
-      margin-top: 30px;
-      color: #8b5cf6;
-    }
-
-    p {
-      margin: 10px 0;
-      color: #d1d5db;
-    }
-
-    ul {
-      margin-left: 20px;
-    }
-
-    li {
-      margin: 6px 0;
+    .section-title {
+      font-weight: bold;
+      margin: 25px 0 10px;
+      font-size: 18px;
     }
 
     .card {
-      background: rgba(255, 255, 255, 0.05);
-      padding: 25px;
+      background: var(--card-bg);
       border-radius: 16px;
-      backdrop-filter: blur(10px);
-      box-shadow: 0 0 20px rgba(139, 92, 246, 0.2);
-      margin-bottom: 20px;
+      padding: 15px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.05);
+      margin-bottom: 15px;
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    li {
+      margin: 5px 0;
+      color: var(--text-light);
+    }
+
+    .highlight {
+      color: var(--primary);
+      font-weight: 600;
     }
 
     .footer {
       text-align: center;
-      margin-top: 40px;
+      margin-top: 30px;
       font-size: 14px;
-      color: #aaa;
+      color: var(--text-light);
     }
 
-    a {
-      color: #a78bfa;
-      text-decoration: none;
-    }
-
-    a:hover {
-      text-decoration: underline;
+    .badge {
+      display: inline-block;
+      background: var(--secondary);
+      color: #000;
+      padding: 4px 10px;
+      border-radius: 10px;
+      font-size: 12px;
+      margin-left: 5px;
     }
 
     @media (max-width: 600px) {
       h1 {
-        font-size: 28px;
+        font-size: 22px;
       }
     }
   </style>
 </head>
+
 <body>
 
-  <div class="container">
-    <h1>Calmo</h1>
-    <div class="subtitle">Privacy Policy</div>
+<div class="container">
 
-    <div class="card">
-      <p><strong>Effective Date:</strong> [Add Date]</p>
+  <!-- HEADER -->
+  <h1>Good Evening 🌙</h1>
+  <div class="subtitle">Welcome to <span class="highlight">Calmo</span> – Relax, Meditate & Sleep Better</div>
 
-      <h2>1. Introduction</h2>
-      <p>
-        Calmo is a meditation and relaxation app designed to provide calming music and audio content.
-        We respect your privacy and are committed to protecting your personal data.
-      </p>
-
-      <h2>2. Information We Collect</h2>
-      <ul>
-        <li>Email address</li>
-        <li>Password (handled securely via Firebase Authentication)</li>
-        <li>Usage data (songs played, likes, interactions)</li>
-        <li>Device information (browser, device type)</li>
-      </ul>
-
-      <h2>3. How We Use Your Information</h2>
-      <ul>
-        <li>To provide and maintain the app</li>
-        <li>To authenticate users</li>
-        <li>To store preferences</li>
-        <li>To improve user experience</li>
-      </ul>
-
-      <h2>4. Audio Content Source</h2>
-      <p>
-        Calmo uses audio content sourced from Pixabay under its royalty-free license.
-      </p>
-
-      <h2>5. Third-Party Services</h2>
-      <ul>
-        <li>Firebase (Authentication & Database)</li>
-        <li>Cloudflare R2 (Storage)</li>
-      </ul>
-
-      <h2>6. Data Security</h2>
-      <p>
-        We take reasonable steps to protect your data, but no system is 100% secure.
-      </p>
-
-      <h2>7. Data Sharing</h2>
-      <p>
-        We do not sell your personal data. Data is only shared with services necessary to run the app.
-      </p>
-
-      <h2>8. User Rights</h2>
-      <ul>
-        <li>Request data deletion</li>
-        <li>Stop using the app anytime</li>
-      </ul>
-
-      <h2>9. Data Retention</h2>
-      <p>
-        We retain data only as long as necessary to provide our services.
-      </p>
-
-      <h2>10. Children's Privacy</h2>
-      <p>
-        This app is not intended for children under 13.
-      </p>
-
-      <h2>11. Changes to Policy</h2>
-      <p>
-        We may update this policy. Changes will be posted here.
-      </p>
-
-      <h2>12. Contact</h2>
-      <p>
-        Email: <a href="mailto:awaisjavaid93@gmail.com">awaisjavaid93@gmail.com</a>
-      </p>
-    </div>
-
-    <div class="footer">
-      © 2026 Calmo App
-    </div>
+  <!-- APP DESCRIPTION -->
+  <div class="card">
+    <p>
+      Calmo is a meditation and relaxation music app designed to help you reduce stress,
+      improve sleep, and stay focused using calming audio experiences.
+    </p>
   </div>
+
+  <!-- FEATURES -->
+  <div class="section-title">🔥 Most Played</div>
+  <div class="card">
+    <ul>
+      <li>Beautiful – Music_For_Videos</li>
+      <li>Original – Syouki_Takahashi</li>
+      <li>Lofi – AmbientAUDIOVISION</li>
+      <li>Calm – SigmaMusicArt</li>
+    </ul>
+  </div>
+
+  <div class="section-title">🧘 Meditation</div>
+  <div class="card">
+    <ul>
+      <li>Zen Ambient</li>
+      <li>Shakuhachi</li>
+      <li>Yoga Relaxation</li>
+    </ul>
+  </div>
+
+  <div class="section-title">🌊 Nature & Ocean</div>
+  <div class="card">
+    <ul>
+      <li>Ocean Wave Sounds</li>
+      <li>Sea Relax</li>
+      <li>Sleep Music</li>
+    </ul>
+  </div>
+
+  <!-- PRIVACY POLICY -->
+  <div class="section-title">🔐 Privacy Policy</div>
+  <div class="card">
+
+    <p><strong>Effective Date:</strong> Add your date</p>
+
+    <h3>Information We Collect</h3>
+    <ul>
+      <li>Email and password (via Firebase Authentication)</li>
+      <li>User activity (songs played, likes)</li>
+      <li>Device and usage data</li>
+    </ul>
+
+    <h3>How We Use Data</h3>
+    <ul>
+      <li>To provide app functionality</li>
+      <li>To personalize your experience</li>
+      <li>To improve performance</li>
+    </ul>
+
+    <h3>Third-Party Services</h3>
+    <ul>
+      <li>Firebase (Authentication & Database)</li>
+      <li>Cloudflare R2 (Audio Storage)</li>
+    </ul>
+
+    <h3>Audio Content</h3>
+    <p>
+      Audio content is sourced from Pixabay under its royalty-free license.
+    </p>
+
+    <h3>Data Security</h3>
+    <p>
+      We use secure systems, but no service is 100% safe.
+    </p>
+
+    <h3>User Rights</h3>
+    <ul>
+      <li>Request data deletion</li>
+      <li>Stop using the app anytime</li>
+    </ul>
+
+    <h3>Contact</h3>
+    <p>Email: awaisjavaid93@gmail.com</p>
+
+  </div>
+
+  <!-- FOOTER -->
+  <div class="footer">
+    © 2026 Calmo App • Made for Peace & Focus 🌿
+  </div>
+
+</div>
 
 </body>
 </html>
