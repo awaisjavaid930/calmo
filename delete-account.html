@@ -1,29 +1,117 @@
 <!doctype html>
-<html>
+<html lang="en">
   <head>
-    <title>Delete Account</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Delete Account | Calmo</title>
+
+    <style>
+      body {
+        background: #121212;
+        color: #f2f2f2;
+        font-family: "Segoe UI", Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+
+      .container {
+        max-width: 700px;
+        margin: 40px auto;
+        background: #1d1d1d;
+        border-radius: 12px;
+        box-shadow: 0 4px 24px rgba(25, 118, 210, 0.08);
+        padding: 32px 28px;
+      }
+
+      h1, h2 {
+        color: #1976d2;
+        margin-top: 0;
+      }
+
+      h2 {
+        color: #26a69a;
+        margin-bottom: 10px;
+      }
+
+      a {
+        color: #31ccec;
+        text-decoration: underline;
+      }
+
+      ul, ol {
+        margin-left: 20px;
+      }
+
+      .accent {
+        color: #9c27b0;
+      }
+
+      .section {
+        margin-bottom: 28px;
+      }
+
+      .danger {
+        color: #ff5252;
+        font-weight: bold;
+      }
+    </style>
   </head>
+
   <body>
-    <h1>Delete Your Account</h1>
+    <div class="container">
+      <h1>Delete Your Account</h1>
 
-    <p>If you want to delete your account:</p>
+      <div class="section">
+        <p>
+          At <span class="accent">Calmo</span>, you have full control over your account and data.
+        </p>
+      </div>
 
-    <ol>
-      <li>Open the app</li>
-      <li>Go to Profile → Settings</li>
-      <li>Tap "Delete Account"</li>
-    </ol>
+      <div class="section">
+        <h2>Delete from App</h2>
+        <p>You can delete your account directly from the app:</p>
 
-    <p>OR send a request to:</p>
-    <p><b>support@yourdomain.com</b></p>
+        <ol>
+          <li>Open the Calmo app</li>
+          <li>Tap on the <strong>User Icon</strong> (menu tab)</li>
+          <li>Scroll to the bottom</li>
+          <li>Tap <span class="danger">"Delete Account"</span></li>
+        </ol>
+      </div>
 
-    <h3>Data Deletion</h3>
-    <p>When your account is deleted, we remove:</p>
-    <ul>
-      <li>Your profile information (name, email, photo)</li>
-      <li>Your favorites and downloads</li>
-    </ul>
+      <div class="section">
+        <h2>Request via Email</h2>
+        <p>If you cannot access the app, you can request account deletion by emailing us:</p>
 
-    <p>All data is permanently deleted and not retained.</p>
+        <p>
+          <a href="mailto:awaisjavaid93@gmail.com">
+            awaisjavaid93@gmail.com
+          </a>
+        </p>
+      </div>
+
+      <div class="section">
+        <h2>Data Deletion</h2>
+        <p>When your account is deleted, we permanently remove:</p>
+
+        <ul>
+          <li>Your profile information (name, email, photo)</li>
+          <li>Your favorites and saved content</li>
+          <li>Your usage-related data</li>
+        </ul>
+
+        <p class="danger">
+          This action is permanent and cannot be undone.
+        </p>
+      </div>
+
+      <div class="section">
+        <h2>Retention Policy</h2>
+        <p>
+          We do not retain any personal user data after deletion. All data is permanently erased from our systems.
+        </p>
+      </div>
+
+    </div>
   </body>
 </html>
